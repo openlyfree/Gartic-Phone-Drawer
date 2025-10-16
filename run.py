@@ -3,9 +3,8 @@
 Edit the variables below, then run this file with ``python run_with_config.py``.
 """
 from __future__ import annotations
-
 from pathlib import Path
-
+import time
 from gartic_phone_drawer import CanvasConfig, draw_image_mask
 
 # --- Configuration --------------------------------------------------------
@@ -42,5 +41,6 @@ def main() -> None:
     print(f"Completed drawing {drawn} points from {image}")
 
 
-if __name__ == "__main__":  # pragma: no cover - manual entry
+if __name__ == "__main__":
+    time.sleep(3)  # Give the user a moment to switch to Gartic Phone
     main()

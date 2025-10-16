@@ -4,6 +4,7 @@ Draws images in [Gartic Phone](https://garticphone.com/) by automating mouse cli
 ⚠️ **Safety note:** running the script will move and click your mouse cursor. Make sure Gartic Phone is focused and you are ready before executing it.
 Quick tip: move your mouse to the top-left corner of your screen to abort, you might have to fight the automation.
 It waits 3 seconds before starting, so you have time to switch to gartic phone.
+Also this is really not anticheat proof, it might work if you change the config options.
 
 ## Installation
 
