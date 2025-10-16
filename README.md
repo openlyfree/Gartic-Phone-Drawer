@@ -1,6 +1,7 @@
 # Gartic Phone Drawer
 
 Draws images in [Gartic Phone](https://garticphone.com/) by automating mouse clicks on the canvas.
+⚠️ **Safety note:** running the script will move and click your mouse cursor. Make sure Gartic Phone is focused and you are ready before executing it.
 
 ## Installation
 
@@ -28,7 +29,7 @@ Config options:
 - `--alpha-min` to control how transparent pixels may be before they are ignored.
 - `--offset` and `--max-point` to match your screen layout if the default offsets do not line up.
 
-⚠️ **Safety note:** running the script will move and click your mouse cursor. Make sure Gartic Phone is focused and you are ready before executing it.
+
 
 
 
